@@ -7,7 +7,7 @@ cur = conn.cursor()
 cur.execute("""CREATE TABLE IF NOT EXISTS Contacts(
             Id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
             Name TEXT,
-            Phone NUMBER TEXT,
+            Phone TEXT,
             Email TEXT);""")
 
 insert_data = [
